@@ -20,6 +20,9 @@ a{
 * h1{
     font-family:Elsie;
 }
+* button{
+    outline:0;
+}
 .wrapper{
     width:90%;
     margin:0 auto;
@@ -526,92 +529,6 @@ footer{
     width:80%;
 }
 
-/*media queries for max-width:700px*/
-@media  all and (max-width:700px){
-    .heading{
-        display:grid;
-    }
-    .hdleft,.hdright{
-        width:100%;
-    }
-    .hdright img{
-        width:100%;
-        padding-top:45px;
-        transform: scale(1.1);
-    }
-    .cardsl,.cardsr{
-        width:100%;
-    }
-    .cards,.cardsl,.cardsr{
-        display:grid;
-        width:100%;
-    }
-    .cardsr{
-        padding-top:45px;
-    }
-    .livingroom,.kitchen,.ceiling{
-        display:grid;
-    }
-    .lleft,.lright,.kleft,.kright,.cleft,.cright{
-        width:100%;
-    }
-    .lright img,.kleft img,.cright img{
-        padding-top:30px;
-        transform: scale(1.1);
-    }
-    .fig{
-        box-shadow:none;
-        width:0%;
-    }
-    .fig img{
-        display:none;
-        box-shadow:none;
-    }
-    .p{
-        width:100%;
-    }
-    .contact{
-        display:grid;
-    }
-    .cnl,.cnr
-    {
-        width:100%;
-    }
-    #btntwo{
-        margin-left:200px;
-        padding:20px 63px;
-    }
-    .cnr p, button{
-        margin-left:10px; 
-    }
-    .cnr input{
-        width:90%;
-    }
-    .hright{
-        margin-left:90px;
-    }
-    .hright ul{
-        display:none;
-    }
-    .hright button{
-        margin-right:10px;
-    }
-    .hleft i{
-        margin-left:30px;
-    }
-    .hleft #hmenu{
-        display:block;
-        margin-left:40px;
-    }
-    .hleft #hmenu ul{
-        display:none;
-    }
-    textarea{
-        width:95%;
-    }
-}
-/* media queries ends for max-width:700px*/
-
 /* media queries starts for max-width:400px*/
 @media  all and (max-width:400px){
     .wrapper{
@@ -621,9 +538,15 @@ footer{
         padding:10px 0px;
         display:grid;
     }
+    .hright button{
+        margin-left:0px;
+    }
     .heading{
         display:grid;
         padding:10px 0px;
+    }
+    .hdleft,.hdright{
+        width:100%;
     }
     .hdleft h1{
         font-size:60px;
