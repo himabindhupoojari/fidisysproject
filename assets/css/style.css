@@ -607,11 +607,17 @@ footer{
         border:2px solid black;
     }
     .wrapper .head{
-        padding:10px 0px;
+        display:grid;
+        justify-content:space-around;
     }
     .heading{
         display:grid;
         padding:10px 0px;
+    }
+    .heading img{
+        width:100%;
+        height:auto;
+        margin-bottom:30px;
     }
     .hdleft,.hdright{
         width:100%;
