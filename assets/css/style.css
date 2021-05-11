@@ -635,8 +635,12 @@ footer{
         padding-top:45px;
         margin-bottom:30px;
     }
-    .cardsl,.cardsr{
+    .cardsl ,.cardsr{
         width:100%;
+    }
+    .cardsi ,.cards i{
+        display:block;
+        text-align:center;
     }
     .cards,.cardsl,.cardsr{
         display:grid;
