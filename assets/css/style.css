@@ -443,7 +443,8 @@ a{
     color:#30d3a8;
 }
 .cnr p{
-    font-size:19px;
+    font-size:16px;
+    padding:2px 0px;
 }
 #btnone{
     background-color:transparent;
@@ -635,6 +636,9 @@ footer{
     }
     textarea{
         width:95%;
+    }
+    .cnr p{
+        padding-right:10px;
     }
 }
 /* media query ends for max-width:400px*/
