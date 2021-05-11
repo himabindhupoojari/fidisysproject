@@ -153,15 +153,9 @@ a{
 .card1 i,.card2 i,.card3 i,.card4 i{
     font-size:35px;
     color:#30d3a8;
-    margin-right:10px;
+    margin-right:5px;
 }
-.card1 i{
-    margin-right:15px;
-}
-.card2 i{
-    margin-right:23px;      
-}
-.card1 span,.card2 span,.card3 span,.card4 span{
+/*.card1 span,.card2 span,.card3 span,.card4 span{
     color:white;
     font-size:19px;
     font-weight:bold;
@@ -170,7 +164,21 @@ a{
     font-size:13px;
     color:silver;
     font-weight:normal;
-    margin-left:60px;
+    margin-left:55px;
+}*/
+.cardsl span,.cardsr span{
+    color:white;
+    font-size:19px;
+    font-weight:bold; 
+}
+.cardsl p,.cardsr p{
+    font-size:13px;
+    color:silver;
+    font-weight:normal;
+    margin-left:55px;
+}
+.card2 p{
+    margin-left:45px;
 }
 .offer{
     padding:90px 50px;
@@ -531,6 +539,9 @@ footer{
         padding-top:45px;
         transform: scale(1.1);
     }
+    .cardsl,.cardsr{
+        width:100%;
+    }
     .cards,.cardsl,.cardsr{
         display:grid;
         width:100%;
@@ -608,16 +619,13 @@ footer{
     }
     .wrapper .head{
         display:grid;
-        justify-content:space-around;
     }
     .heading{
         display:grid;
         padding:10px 0px;
     }
-    .heading img{
-        width:100%;
-        height:auto;
-        margin-bottom:30px;
+    .hdleft h1{
+        font-size:60px;
     }
     .hdleft,.hdright{
         width:100%;
@@ -625,7 +633,10 @@ footer{
     .hdright img{
         width:100%;
         padding-top:45px;
-        transform: scale(1.1);
+        margin-bottom:30px;
+    }
+    .cardsl,.cardsr{
+        width:100%;
     }
     .cards,.cardsl,.cardsr{
         display:grid;
