@@ -603,6 +603,9 @@ footer{
 
 /* media queries starts for max-width:400px*/
 @media  all and (max-width:400px){
+    .wrapper{
+        border:2px solid black;
+    }
     .heading{
         display:grid;
     }
