@@ -531,9 +531,6 @@ footer{
 
 /* media queries starts for max-width:400px*/
 @media  all and (max-width:400px){
-    .wrapper{
-        border:2px solid black;
-    }
     .wrapper .head{
         padding:10px 0px;
         
@@ -561,13 +558,11 @@ footer{
     }
     .cardsl ,.cardsr{
         width:100%;
+        text-align:center;
     }
     .cardsl i ,.cardsr i{
         display:block;
         padding-bottom:15px;
-        text-align:center;
-    }
-    .cardsl span,.cardsr span{
         text-align:center;
     }
     .cardsl p ,.cardsr p{
