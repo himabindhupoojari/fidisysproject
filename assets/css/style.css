@@ -539,8 +539,7 @@ footer{
         
     }
     .hright button{
-        width:100px;
-        padding:0px 50px;
+        width:140px;
         margin-left:10px;
     }
     .heading{
@@ -563,15 +562,15 @@ footer{
     .cardsl ,.cardsr{
         width:100%;
     }
-    .cardsi ,.cards i{
+    .cardsl i ,.cardsr i{
         display:block;
         padding-bottom:15px;
         text-align:center;
     }
-    .cards span,.cards span{
+    .cardsl span,.cardsr span{
         text-align:center;
     }
-    .cardsp ,.cards p{
+    .cardsl p ,.cardsr p{
         margin-left:0px;
     }
     .cards,.cardsl,.cardsr{
