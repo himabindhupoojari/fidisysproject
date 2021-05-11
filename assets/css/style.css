@@ -619,6 +619,7 @@ footer{
     }
     .wrapper .head{
         display:grid;
+        padding:10px 0px;
     }
     .heading{
         display:grid;
@@ -641,6 +642,9 @@ footer{
     .cardsi ,.cards i{
         display:block;
         text-align:center;
+    }
+    .cardsp ,.cards p{
+        margin-left:10px;
     }
     .cards,.cardsl,.cardsr{
         display:grid;
