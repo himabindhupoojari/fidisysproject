@@ -606,11 +606,12 @@ footer{
     .wrapper{
         border:2px solid black;
     }
-    .wrapper head{
+    .wrapper .head{
         padding:10px 0px;
     }
     .heading{
         display:grid;
+        padding:10px 0px;
     }
     .hdleft,.hdright{
         width:100%;
