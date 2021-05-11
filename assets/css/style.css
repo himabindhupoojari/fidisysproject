@@ -595,6 +595,9 @@ footer{
     .hleft #hmenu ul{
         display:none;
     }
+    textarea{
+        width:95%;
+    }
 }
 /* media queries ends for max-width:700px*/
 
@@ -647,7 +650,7 @@ footer{
         width:100%;
     }
     #btntwo{
-        width:90%;
+        width:95%;
         padding:20px 20px;
         margin-left:0px;
     }
@@ -675,6 +678,9 @@ footer{
     }
     .hleft #hmenu ul{
         display:none;
+    }
+    textarea{
+        width:95%;
     }
 }
 /* media query ends for max-width:400px*/
