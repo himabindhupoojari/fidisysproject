@@ -540,8 +540,8 @@ footer{
     }
     .hright button{
         width:100px;
-        padding:0px 30px;
-        margin-left:20px;
+        padding:0px 50px;
+        margin-left:10px;
     }
     .heading{
         display:grid;
@@ -566,6 +566,9 @@ footer{
     .cardsi ,.cards i{
         display:block;
         padding-bottom:15px;
+        text-align:center;
+    }
+    .cards span,.cards span{
         text-align:center;
     }
     .cardsp ,.cards p{
