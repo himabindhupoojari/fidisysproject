@@ -572,8 +572,6 @@ footer{
 @media  all and (max-width:400px){
     .head{
         width:100%;
-        display:flex;
-        justify-content: space-between;
         padding:10px 0px;
     }
     .hright{
@@ -584,9 +582,8 @@ footer{
         width:100%;
         border:1px solid yellow;
     }
-    #hmenu{
-        display:inline-block;
-        color:blue;
+    .hleft #hmenu{
+        display: inline-block;
     }
     #hdmenu #button:hover{
         background-color:white;
