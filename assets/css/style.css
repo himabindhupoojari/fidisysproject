@@ -663,5 +663,8 @@ footer{
     #hmenu button{
         display:none;
     }
+    .head{
+        border:1px solid blue;
+    }
 }
 /* media query ends for max-width:400px*/
