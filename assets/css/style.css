@@ -586,6 +586,7 @@ footer{
     }
     #hmenu{
         display:inline-block;
+        color:blue;
     }
     #hdmenu #button:hover{
         background-color:white;
