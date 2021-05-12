@@ -660,5 +660,8 @@ footer{
     .hleft{
         width:100%;
     }
+    #hmenu button{
+        display:none;
+    }
 }
 /* media query ends for max-width:400px*/
