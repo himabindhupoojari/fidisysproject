@@ -538,6 +538,10 @@ footer{
 }
 
 /*media quries starts for max-width:700px*/
+.head{
+    padding:10px 0px;
+    width:100%;
+}
 .hleft{
     width:20%;
     border:1px solid blue;
@@ -545,6 +549,7 @@ footer{
 .hright{
     width:80%;
     border:1px solid blueviolet;
+    display:inline-block;
 }
 #btntwo{
     margin-left:5px;
@@ -580,7 +585,6 @@ footer{
     }
     .hleft{
         width:100%;
-        border:1px solid yellow;
     }
     .hleft #hmenu{
         display: inline-block;
@@ -589,30 +593,9 @@ footer{
         background-color:white;
         color:#1a3e34;
     }
-    /*.hright button{
-        width:140px;
-        margin-left:10px;
-    }*
-    .hright{
-        margin-left:90px;
-    }*/
     .hright ul{
         display:none;
     }
-    /*.hright button{
-        margin-right:10px;
-    }
-    .hleft i{
-        margin-left:30px;
-    }*/
-   /* .hleft #hmenu{
-        display:block;
-        margin-left:40px;
-    }*/
-    /*.hleft #hmenu ul{
-        display:none;
-    }*/
-    
     .heading{
         display:grid;
         padding:10px 0px;
@@ -677,9 +660,9 @@ footer{
         width:100%;
     }
     #btntwo{
-        width:85%;
+        width:90%;
         padding:20px 20px;
-        margin-left:5px !important;
+        margin-left:5px;
     }
     .cnr{
        margin-left:10px; 
