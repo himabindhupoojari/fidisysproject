@@ -665,6 +665,7 @@ footer{
     }
     .head{
         border:1px solid blue;
+        width:100%;
     }
 }
 /* media query ends for max-width:400px*/
