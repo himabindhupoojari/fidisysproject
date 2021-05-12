@@ -41,9 +41,9 @@
             </div>
         </div>
             <div id="hdmenu">
-                <div>Services</div>
-                <div>Product</div>
-                <div>Work</div>
+                <div><a href="index.html">Services</a></div>
+                <div><a href="index.html">Product</a></div>
+                <div><a href="index.html">Work</a></div>
                 <div><button>get quote</button></div>
             </div>
         <!--head ends here-->
@@ -351,7 +351,8 @@ function showSlides(n) {
 
 $(document).ready(function(){
     $('#hmenu').click(function(){
-        $('#hdmenu').toggle().css('margin','10px 10px');
+        $('#hdmenu').toggle().css('margin','10px 10px').css('backgroundColor','#wheat');
+        $('#hdmenu div').css('margin','10px 10px');
     });
 });
 
