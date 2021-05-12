@@ -633,7 +633,7 @@ footer{
     #btntwo{
         width:95%;
         padding:20px 20px;
-        margin-left:0px;
+        margin-left:0px !important;
     }
     .cnr{
        margin-left:10px; 
