@@ -645,10 +645,9 @@ footer{
     }
     .p p{
         width:98%;
-        border:1px solid #fff;
         padding:0px 15px;
     }
-    .p h4,#l{
+    .p h1, h4 ,#l{
         padding-left:0px;
     }
     .flex{
@@ -671,7 +670,7 @@ footer{
     .head{
         width:100%;
     }
-    #hdmenu div button:hover{
+    #hdmenu #button:hover{
         background-color:white;
         color:#1a3e34;
     }
