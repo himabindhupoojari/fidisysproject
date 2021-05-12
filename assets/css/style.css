@@ -585,7 +585,7 @@ footer{
         border:1px solid yellow;
     }
     #hmenu{
-        display:show;
+        display:inline-block;
     }
     #hdmenu #button:hover{
         background-color:white;
