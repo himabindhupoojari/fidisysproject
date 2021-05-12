@@ -543,10 +543,30 @@ footer{
         padding:10px 0px;
         
     }
-    .hright button{
+    /*.hright button{
         width:140px;
         margin-left:10px;
+    }*
+    .hright{
+        margin-left:90px;
+    }*/
+    .hright ul{
+        display:none;
     }
+    /*.hright button{
+        margin-right:10px;
+    }
+    .hleft i{
+        margin-left:30px;
+    }*/
+    .hleft #hmenu{
+        display:block;
+        margin-left:40px;
+    }
+    .hleft #hmenu ul{
+        display:none;
+    }
+    
     .heading{
         display:grid;
         padding:10px 0px;
@@ -591,7 +611,6 @@ footer{
     }
     .lright img,.kleft img,.cright img{
         padding-top:30px;
-        transform: scale(1.1);
     }
     .fig{
         box-shadow:none;
@@ -621,25 +640,6 @@ footer{
     }
     .cnr input{
         width:90%;
-    }
-    .hright{
-        margin-left:90px;
-    }
-    .hright ul{
-        display:none;
-    }
-    .hright button{
-        margin-right:10px;
-    }
-    .hleft i{
-        margin-left:30px;
-    }
-    .hleft #hmenu{
-        display:block;
-        margin-left:40px;
-    }
-    .hleft #hmenu ul{
-        display:none;
     }
     textarea{
         width:95%;
@@ -691,7 +691,7 @@ footer{
     border:1px solid blueviolet;
 }
 #btntwo{
-    margin-left:10px;
+    margin-left:5px;
 }
 .heading{
     padding:40px 10px;
