@@ -559,13 +559,13 @@ footer{
     .hleft i{
         margin-left:30px;
     }*/
-    .hleft #hmenu{
+   /* .hleft #hmenu{
         display:block;
         margin-left:40px;
-    }
-    .hleft #hmenu ul{
+    }*/
+    /*.hleft #hmenu ul{
         display:none;
-    }
+    }*/
     
     .heading{
         display:grid;
