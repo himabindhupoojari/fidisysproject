@@ -648,7 +648,7 @@ footer{
         border:1px solid #fff;
     }
     .flex{
-        display:flex;
+        display:grid;
         justify-content:space-around;
     }
     .flex1,.flex2,.flex3{
@@ -665,10 +665,9 @@ footer{
         width:100%;
     }
     .head{
-        border:1px solid blue;
         width:100%;
     }
-    #hdmenu button:hover{
+    #hdmenu div button:hover{
         background-color:white;
         color:#1a3e34;
     }
