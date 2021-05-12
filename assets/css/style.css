@@ -642,6 +642,7 @@ footer{
     }
     .p{
         width:95%;
+        border:1px solid #fff;
     }
     .flex{
         display:flex;
@@ -651,6 +652,12 @@ footer{
         width:95%;
     }
     .card1,.card2,.card3,.card4{
+        width:100%;
+    }
+    #hmenu button{
+        display:none;
+    }
+    .hleft{
         width:100%;
     }
 }
