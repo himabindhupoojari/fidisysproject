@@ -551,6 +551,9 @@ footer{
     border:1px solid blueviolet;
     display:inline-block;
 }
+.hright ul{
+    margin-left:20px;
+}
 #btntwo{
     margin-left:5px;
 }
