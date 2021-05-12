@@ -533,6 +533,7 @@ footer{
 }
 .hleft{
     width:100%;
+    padding:20px 10px;
 }
 .hleft #hmenu{
     display: inline-block;
@@ -544,19 +545,6 @@ footer{
 .hright ul{
     display:none;
 }
-/*.hleft{
-    width:20%;
-    border:1px solid blue;
-}
-.hright{
-    width:80%;
-    border:1px solid blueviolet;
-    display:inline-block;
-}
-.hright ul li{
-    margin-left:20px;
-    border:1px solid pink;
-}*/
 #btntwo{
     margin-left:5px;
 }
@@ -570,8 +558,18 @@ footer{
 .cardsl,.cardsr{
     width:100%;
 }
+.cardsl{
+    margin-bottom:20px;
+}
 .kright{
     padding-left:10px;
+}
+.contact{
+    display:grid;
+    justify-content:space-around;
+}
+.cnr,.cnl{
+    width:100%;
 }
 .cnl p{
     padding-left:10px;
