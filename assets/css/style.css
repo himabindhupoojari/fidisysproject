@@ -539,9 +539,26 @@ footer{
 
 /* media queries starts for max-width:400px*/
 @media  all and (max-width:400px){
-    .wrapper .head{
+    .head{
+        width:100%;
+        display:flex;
+        justify-content: space-between;
         padding:10px 0px;
-        
+    }
+    .hright{
+        display:none;
+        width:0%;
+    }
+    .hleft{
+        width:100%;
+        border:1px solid yellow;
+    }
+    #hmenu{
+        display:show;
+    }
+    #hdmenu #button:hover{
+        background-color:white;
+        color:#1a3e34;
     }
     /*.hright button{
         width:140px;
@@ -633,7 +650,7 @@ footer{
     #btntwo{
         width:95%;
         padding:20px 20px;
-        margin-left:0px !important;
+        margin-left:5px !important;
     }
     .cnr{
        margin-left:10px; 
@@ -664,20 +681,7 @@ footer{
     .card1,.card2,.card3,.card4{
         width:100%;
     }
-    .hright{
-        display:none;
-        width:0%;
-    }
-    .hleft{
-        width:100%;
-    }
-    .head{
-        width:100%;
-    }
-    #hdmenu #button:hover{
-        background-color:white;
-        color:#1a3e34;
-    }
+    
 }
 /* media query ends for max-width:400px*/
 
