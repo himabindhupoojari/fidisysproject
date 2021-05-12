@@ -513,21 +513,6 @@ footer{
 
     border-bottom:2px solid #1a3e34;
 }
-/*.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height:100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #000;
-}
-.col img:hover .overlay {
-    opacity:1;
-}*/
 .col img{
     width:100%;
     height:100%;
@@ -541,9 +526,25 @@ footer{
 .head{
     padding:10px 0px;
     width:100%;
-    justify-content:space-around;
+}
+.hright{
+    display:none;
+    width:0%;
 }
 .hleft{
+    width:100%;
+}
+.hleft #hmenu{
+    display: inline-block;
+}
+#hdmenu #button:hover{
+    background-color:white;
+    color:#1a3e34;
+}
+.hright ul{
+    display:none;
+}
+/*.hleft{
     width:20%;
     border:1px solid blue;
 }
@@ -555,7 +556,7 @@ footer{
 .hright ul li{
     margin-left:20px;
     border:1px solid pink;
-}
+}*/
 #btntwo{
     margin-left:5px;
 }
