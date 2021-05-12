@@ -646,6 +646,7 @@ footer{
     .p p{
         width:98%;
         border:1px solid #fff;
+        padding:0px 10px;
     }
     .flex{
         display:grid;
