@@ -40,11 +40,12 @@
                 <button>get quote</button>
             </div>
         </div>
-
-                <div id="hdmenu">Services</div>
-                <div id="hdmenu1">Product</div>
-                <div id="hdmenu2">Work</div>
-                <div id="button"><button>get quote</button></div>
+            <div id="hdmenu">
+                <div>Services</div>
+                <div>Product</div>
+                <div>Work</div>
+                <div><button>get quote</button></div>
+            </div>
         <!--head ends here-->
 
         <!--heading starts here-->
@@ -349,11 +350,8 @@ function showSlides(n) {
 
 
 $(document).ready(function(){
-    $('#hmenu').click(function(){
-        $('#hdmenu').toggle();
-        $('#hdmenu1').toggle();
-        $('#hdmenu2').toggle();
-        $('#button').toggle();
+    $('#hdmenu').click(function(){
+        $(this).toggle();
     });
 });
 

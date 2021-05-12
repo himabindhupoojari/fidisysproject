@@ -88,7 +88,7 @@ a{
     color:#1a3e34;
     transition:0.3s ease-in;
 }
-#hdmenu, #button{
+#hdmenu{
     display:none;
 }
 .heading{
