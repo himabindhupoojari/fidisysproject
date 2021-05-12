@@ -654,7 +654,7 @@ footer{
     .card1,.card2,.card3,.card4{
         width:100%;
     }
-    #hmenu button{
+    .hright button{
         display:none;
     }
     .hleft{
