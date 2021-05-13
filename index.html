@@ -44,7 +44,7 @@
 
         <!--heading starts here-->
         <div class="heading">
-            <div class="hdleft animate__animated animate__zoomInLeft">
+            <div class="hdleft animate__animated animate__zoomIn">
                 <h1>Interior Design & Decors</h1>
                 <button>Book Free Consultation <i class="fas fa-arrow-right"></i></button>
             </div>
@@ -341,6 +341,22 @@ $(document).ready(function(){
         $('#hdmenu div a').css('color','#1a3e34').css('fontweight','bold');
         $('#hdmenu div').css('padding','10px 10px');
         $('#hdmenu button').css('backgroundColor','#1a3e34').css('color','white').css('fontsize','19px').css('padding','10px 19px').css('border','1px solid #1a3e34');
+
+        $('#hdmenu div a').mouseover(function(){
+            $(this).css('color','#30d3a8');
+        });
+
+        $('#hdmenu div a').mouseleave(function(){
+            $(this).css('color','#1a3e34');
+        });
+
+        $('#hdmenu button').mouseover(function(){
+            $(this).css('color','#1a3e34').css('backgroundColor','transparent');
+        });
+
+        $('#hdmenu button').mouseleave(function(){
+            $(this).css('color','#fff').css('backgroundColor','#1a3e34');
+        });
     });
 });
 
