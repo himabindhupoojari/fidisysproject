@@ -11,21 +11,26 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+
+
     <script
   src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
   crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </head>
 
 <body>
     <div class="wrapper">
         <!--head starts here-->
         <div class="head">
-            <div class="hleft">
+            <div class="hleft" data-aos="fade-down">
                 <a href="index.html"><img src="assets/images/logo1.png" width="50px" height="50px" class="animate__animated animate__zoomIn"/></a>
                 <i class="fas fa-bars" id="hmenu"></i>
             </div>
-            <div class="hright">
+            <div class="hright" data-aos="fade-down">
                 <ul class="animate__animated animate__zoomIn">
                     <li><button>get quote</button></li>
                     <li><a href="index.html">work</a></li>
@@ -44,11 +49,11 @@
 
         <!--heading starts here-->
         <div class="heading">
-            <div class="hdleft animate__animated animate__zoomIn">
+            <div class="hdleft animate__animated animate__zoomIn" data-aos="zoom-in">
                 <h1>Interior Design & Decors</h1>
                 <button>Book Free Consultation <i class="fas fa-arrow-right"></i></button>
             </div>
-            <div class="hdright animate__animated animate__zoomInRight">
+            <div class="hdright animate__animated animate__zoomInRight" data-aos="fade-right">
                 <img src="assets/images/heading.png"/>
             </div>
         </div>
@@ -399,5 +404,23 @@ $(document).ready(function(){
     });
 });
 
+
+/* on scroll*/
+(function(){
+    window.addEventListener('scroll', () => {
+    AOS.init({
+      duration: 1000,
+      easing: "ease-in-out",
+      once: true,
+      mirror: false
+    });
+  });
+})()
+/* scroll ends*/
 </script>
+
+<script>
+    AOS.init();
+  </script>
+
 </html>
