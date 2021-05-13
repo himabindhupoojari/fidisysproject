@@ -31,7 +31,6 @@ a{
 .head{
     display:flex;
     justify-content:space-between;
-    padding:10px 50px ;
 }
 .hleft #hmenu{
     display:none;
@@ -57,9 +56,11 @@ a{
     width:75%;
     display:flex;
     justify-content:space-between;
+    width:3px solid pink;
 }
 .hright ul{
-    padding-left:265px;
+    display:flex-end;
+    border:1px solid blue;
 }
 .hright ul li{
     display:inline-flex;
@@ -92,7 +93,6 @@ a{
     display:none;
 }
 .heading{
-    padding:90px 50px;
     display:flex;
     justify-content:space-between;
 }
@@ -483,7 +483,7 @@ textarea::placeholder{
     color:white;
     padding:15px 45px;
     margin-top:30px;
-    margin-left:470px;
+    float:right;
 }
 * button:hover
 {
@@ -520,6 +520,9 @@ footer{
 .projects{
     margin:0 auto;
     width:80%;
+}
+.animate__animated{
+    animation-duration:5s;
 }
 
 /*media quries starts for max-width:700px*/

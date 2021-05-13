@@ -9,6 +9,7 @@
 
     <link rel="icon" type="image/png" href="assets/images/logo1.png">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <script
   src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -21,11 +22,11 @@
         <!--head starts here-->
         <div class="head">
             <div class="hleft">
-                <img src="assets/images/logo1.png" width="50px" height="50px"/>
+                <img src="assets/images/logo1.png" width="50px" height="50px" class="animate__animated animate__zoomIn"/>
                 <i class="fas fa-bars" id="hmenu"></i>
             </div>
             <div class="hright">
-                <ul>
+                <ul class="animate__animated animate__zoomIn">
                     <li><a href="index.html">services</a></li>
                     <li><a href="index.html">product</a></li>
                     <li><a href="index.html">work</a></li>
@@ -33,7 +34,7 @@
                 </ul>  
             </div>
         </div>
-        <div id="hdmenu">
+        <div id="hdmenu" class="animate__animated animate__zoomIn">
             <div><a href="index.html">Services</a></div>
             <div><a href="index.html">Product</a></div>
             <div><a href="index.html">Work</a></div>
@@ -43,11 +44,11 @@
 
         <!--heading starts here-->
         <div class="heading">
-            <div class="hdleft">
+            <div class="hdleft animate__animated animate__zoomInLeft">
                 <h1>Interior Design & Decors</h1>
                 <button>Book Free Consultation <i class="fas fa-arrow-right"></i></button>
             </div>
-            <div class="hdright">
+            <div class="hdright animate__animated animate__zoomInRight">
                 <img src="assets/images/heading.png"/>
             </div>
         </div>
@@ -57,9 +58,9 @@
     <!--whyus starts here-->
     <div class="whyus">
         <div class="innerwrapper">
-            <h1>Why Us?</h1>
+            <h1 class="animate__animated animate__bounce">Why Us?</h1>
             <div class="cards">
-                <div class="cardsl">
+                <div class="cardsl animate__animated animate__zoomInLeft">
                     <div class="card1">
                         <i class="fas fa-heart"></i>
                         <span>1500+ happy clients<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></span>
@@ -69,7 +70,7 @@
                         <span>Personalized choices<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></span>
                     </div>
                 </div>
-                <div class="cardsr">
+                <div class="cardsr animate__animated animate__zoomInRight">
                     <div class="card3">
                         <i class="fas fa-home"></i>
                         <span>Preparation on site<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></span>
@@ -89,21 +90,21 @@
         <div class="offer">
             <h1>What we offer?</h1>
             <div class="livingroom">
-                <div class="lleft">
+                <div class="lleft animate__animated animate__zoomInLeft">
                     <h1>Living room & Bed room</h1>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, et amet praesentium laboriosam cum dolor eaque magnam enim quasi soluta nemo? Adipisci cum quia, eaque quaerat odio eius non voluptate.</p>
                     <button>Get Quote  <i class="fas fa-arrow-right"></i></button>
                 </div>
-                <div class="lright">
+                <div class="lright animate__animated animate__zoomIn">
                     <img src="assets/images/lb.png"/>
                 </div>
             </div>
 
             <div class="kitchen">
-                <div class="kleft">
+                <div class="kleft animate__animated animate__zoomIn">
                     <img src="assets/images/kitchen.png"/>
                 </div>
-                <div class="kright">
+                <div class="kright animate__animated animate__zoomInRight">
                     <h1>Modular Kitchen</h1>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, et amet praesentium laboriosam cum dolor eaque magnam enim quasi soluta nemo? Adipisci cum quia, eaque quaerat odio eius non voluptate.</p>
                     <button>Get Quote  <i class="fas fa-arrow-right"></i></button>
@@ -111,12 +112,12 @@
             </div>
 
             <div class="ceiling">
-                <div class="cleft">
+                <div class="cleft animate__animated animate__zoomInLeft">
                     <h1>False Ceilling & Wall</h1>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, et amet praesentium laboriosam cum dolor eaque magnam enim quasi soluta nemo? Adipisci cum quia, eaque quaerat odio eius non voluptate.</p>
                     <button>Get Quote  <i class="fas fa-arrow-right"></i></button>
                 </div>
-                <div class="cright">
+                <div class="cright animate__animated animate__zoomIn">
                     <img src="assets/images/celling.png"/>
                 </div>
             </div>
@@ -130,49 +131,41 @@
             <div class="flex">
                 <div class="flex1">
                     <div class="col">
-                        <img  src="assets/images/img7.jpg" id="img1">
-                        <div class="overlay"></div>
+                        <img  src="assets/images/img7.jpg" id="img1" class="animate__animated animate__zoomInRight">
                     </div>
                     <div class="col">
-                        <img  src="assets/images/img7.png" id="img2">
-                        <div class="overlay"></div>
+                        <img  src="assets/images/img7.png" id="img2" class="animate__animated animate__zoomInRight">
                     </div>
                     <div class="col">
-                        <img  src="assets/images/img8.jpg" id="img3">
-                        <div class="overlay"></div>
+                        <img  src="assets/images/img8.jpg" id="img3" class="animate__animated animate__zoomInRight">
                     </div>
                 </div>
 
                 <div class="flex2">
                     <div class="col" id="col1">
-                        <img src="assets/images/img6.jpg" width="100%" height="auto" id="img4">
+                        <img src="assets/images/img6.jpg" id="img4" class="animate__animated animate__pulse">
                     </div>
 
                     <div class="col">
-                        <img src="assets/images/img2.jpg" width="100%" height="auto" id="img5">
-                        <div class="overlay"></div>
+                        <img src="assets/images/img2.jpg"  id="img5" class="animate__animated animate__pulse">
                     </div>
 
                     <div class="col">
-                        <img src="assets/images/img4.jpg" width="100%" height="auto" id="img6">
-                        <div class="overlay"></div>
+                        <img src="assets/images/img4.jpg" id="img6" class="animate__animated animate__pulse">
                     </div>
                 </div>
 
                 <div class="flex3">
                     <div class="col">
-                        <img  src="assets/images/img9.jpg" width="100%" height="auto" id="img7">
-                        <div class="overlay"></div>
+                        <img  src="assets/images/img9.jpg" id="img7" class="animate__animated animate__zoomInLeft">
                     </div>
 
                     <div class="col">
-                        <img  src="assets/images/celling.png" width="100%" height="auto" id="img8">
-                        <div class="overlay"></div>
+                        <img  src="assets/images/celling.png" id="img8" class="animate__animated animate__zoomInLeft">
                     </div>
 
                     <div class="col">
-                        <img  src="assets/images/img10.jpg" width="100%" height="auto" id="img9">
-                        <div class="overlay"></div>
+                        <img  src="assets/images/img10.jpg" id="img9" class="animate__animated animate__zoomInLeft">
                     </div>
                 </div>
             </div>
@@ -182,7 +175,7 @@
 
     <!--clients starts here-->
     <div class="clients">
-        <h1>Listen from our clients</h1>
+        <h1 class="animate__animated animate__flash">Listen from our clients</h1>
         <!--sliders starts here-->
         <div class="slider">
             <!-- Slideshow container -->
@@ -259,26 +252,26 @@
 
     <!--contact starts here-->
         <div class="wrapper" id="contact">
-            <h1>Contact Us</h1>
+            <h1 class="animate__animated animate__bounce">Contact Us</h1>
             <div class="contact">
-                <div class="cnl">
+                <div class="cnl animate__animated animate__zoomInLeft">
                     <h1>Contact Information</h1>
                     <p>Fill up the form and we will get back to you within 24 hours</p>
                     <p><i class="fas fa-phone"></i> +91-9100775633</p>
                     <p><i class="fas fa-envelope"></i> himabindhu933@gmail.com</p>
                     <p><i class="fas fa-map-marker-alt"></i>Opposite Vijaya bank,Venkatagiri.</p>
 
-                    <div class="social">
+                    <div class="social animate__animated animate__bounce">
                         <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
                         <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
                         <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
                         <a href="https://pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
                     </div>
 
-                    <div class="shape"></div>
+                    <div class="shape animate__animated animate__flash"></div>
                 </div>
                 
-                <div class="cnr">
+                <div class="cnr animate__animated animate__zoomInRight">
                     <form>
                 
                         <input type="text" id="name" placeholder="Your Name"/>
@@ -300,7 +293,7 @@
         <!--footer starts here-->
                 <footer>
                     <div class="wrapper" id="footer">
-                        <h1>Fidisys</h1>
+                        <h1 class=" animate__animated animate__slideInDown">Fidisys</h1>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias tenetur odio sunt repellat esse quaerat tempore et laudantium? Laboriosam, sint.</p>
 
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, commodi.</p>
