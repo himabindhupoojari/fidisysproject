@@ -523,7 +523,7 @@ footer{
 }
 
 /*media quries starts for max-width:700px*/
-@media  all and (max-width:700px){
+@media  all and (max-width:900px){
     .head{
         padding:10px 0px;
         width:100%;
