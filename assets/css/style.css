@@ -635,7 +635,7 @@ footer{
     #hdmenu  div a:hover{
         color:#30d3a8;
     }
-    #hdmenu  div #button:hover{
+    #hdmenu  div button#button:hover{
         background-color:white;
         color:#1a3e34;
     }
