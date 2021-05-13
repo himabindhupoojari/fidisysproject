@@ -550,7 +550,7 @@ footer{
         display:none;
     }
     #btntwo{
-        margin-left:5px;
+        float:right;
     }
     .heading{
         padding:40px 10px;
@@ -671,7 +671,7 @@ footer{
     #btntwo{
         width:90%;
         padding:20px 20px;
-        margin-left:5px;
+        float:none;
     }
     .cnr{
        margin-left:10px; 
