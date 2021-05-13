@@ -31,6 +31,7 @@ a{
 .head{
     display:flex;
     justify-content:space-between;
+    padding:10px 0px;
 }
 .hleft #hmenu{
     display:none;
@@ -56,22 +57,26 @@ a{
     width:75%;
     display:flex;
     justify-content:space-between;
-    width:3px solid pink;
 }
 .hright ul{
-    display:flex-end;
-    border:1px solid blue;
+    width:100%;
 }
 .hright ul li{
     display:inline-flex;
-    padding:20px 10px;
+    padding:0px 10px;
+    float:right;
 }
 .hright ul li a{
     color:#1a3e34;
     font-size:16px;
+    line-height:60px;
     text-transform:uppercase;
     text-align:center;
     font-weight:bold;
+}
+.hright ul li a:hover{
+
+    color:#30d3a8;
 }
 .hright button{
     width:190px;
@@ -95,6 +100,7 @@ a{
 .heading{
     display:flex;
     justify-content:space-between;
+    padding:90px 0px;
 }
 .hdleft,.hdright{
     width:50%;
@@ -161,17 +167,6 @@ a{
     color:#30d3a8;
     margin-right:5px;
 }
-/*.card1 span,.card2 span,.card3 span,.card4 span{
-    color:white;
-    font-size:19px;
-    font-weight:bold;
-}
-.card1 span p,.card2 span p,.card3 span p,.card4 span p{
-    font-size:13px;
-    color:silver;
-    font-weight:normal;
-    margin-left:55px;
-}*/
 .cardsl span,.cardsr span{
     color:white;
     font-size:19px;
@@ -509,10 +504,6 @@ footer{
 .flex img:hover{
     cursor:pointer;
 }
-.hright ul li a:hover{
-
-    border-bottom:2px solid #1a3e34;
-}
 .col img{
     width:100%;
     height:100%;
@@ -525,7 +516,7 @@ footer{
     animation-duration:5s;
 }
 
-/*media quries starts for max-width:700px*/
+/*media quries starts for max-width:900px*/
 @media  all and (max-width:900px){
     .head{
         padding:10px 0px;
@@ -579,7 +570,50 @@ footer{
         padding-left:10px;
     }
 }
-/*media quries ends for max-width:700px*/
+/*media quries ends for max-width:900px*/
+
+/*media quries starts for max-width:78px*/
+@media  all and (max-width:750px){
+    .heading{
+        display:grid;
+        justify-content:space-around;
+    }
+    .hdleft,.hdright{
+        width:100%;
+    }
+}
+/*media quries ends for max-width:750px*/
+
+/*media quries starts for max-width:580px*/
+@media  all and (max-width:750px){
+   /* .heading{
+        display:grid;
+        justify-content:space-around;
+    }
+    .hdleft,.hdright{
+        width:100%;
+    }*/
+    .hdleft{
+        margin-bottom:20px;
+    }
+    .livingroom,.kitchen,.ceiling{
+        display:grid;
+        justify-content:space-around;
+    }
+    .lleft,.lright,.kleft,.kright,.cleft,.cright{
+        width:100%;
+        margin: 15px 0px;
+    }
+    .slide1{
+        display:grid;
+        justify-content:space-around;
+    }
+    .fig{
+        width:100%;
+    }
+
+}
+/*media quries ends for max-width:580px*/
 
 
 /* media queries starts for max-width:400px*/
@@ -595,10 +629,13 @@ footer{
     .hleft{
         width:100%;
     }
-    .hleft #hmenu{
+    /*.hleft #hmenu{
         display: inline-block;
+    }*/
+    #hdmenu  div a:hover{
+        color:#30d3a8;
     }
-    #hdmenu #button:hover{
+    #hdmenu  div #button:hover{
         background-color:white;
         color:#1a3e34;
     }
@@ -669,12 +706,17 @@ footer{
         width:100%;
     }
     #btntwo{
-        width:90%;
+        width:95%;
         padding:20px 20px;
         float:none;
     }
+    #btntwo{
+        background-color:transparent;
+        color:#1a3e34;
+    }
     .cnr{
        margin-left:10px; 
+       margin-top:20px;
     }
     .cnr input{
         width:90%;
