@@ -515,7 +515,9 @@ footer{
 .animate__animated{
     animation-duration:5s;
 }
-
+.social i:hover{
+    transform: scale(1.5);
+}
 /*media quries starts for max-width:900px*/
 @media  all and (max-width:900px){
     .head{
