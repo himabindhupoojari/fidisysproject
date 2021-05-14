@@ -701,7 +701,12 @@ footer{
         float:none;
     }
     #btntwo{
-        background-color:transparent;
+        background-color:#1a3e34;
+        color:#fff;
+        border:2px solid #1a3e34;
+    }
+    #btntwo:hover{
+        background-color:#1a3e34;
         color:#1a3e34;
     }
     .cnr{
