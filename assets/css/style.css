@@ -727,6 +727,7 @@ footer{
     .cnr #input{
         display:grid;
         justify-content:space-around;
+        border:1px solid black;
         width:100%;
     }
     #linput,#rinput{
@@ -737,7 +738,7 @@ footer{
     }
     textarea{
         width:95%;
-    }s
+    }
     .cnr p{
         padding-right:10px;
     }
