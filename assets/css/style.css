@@ -716,6 +716,7 @@ footer{
     .cnr{
        padding-left:10px; 
        margin-top:20px;
+       margin-bottom:20px;
        padding-right:10px;
     }
     textarea{
@@ -743,14 +744,10 @@ footer{
     }
    .cnr form #input{
        display:grid;
-       border:1px solid black;
    } 
    .cnr form #input #linput,.cnr form #input #rinput{
        width:190%;
    }
-   /*.cnr form #input #linput input,.cnr form #input #rinput input{
-       width:10%;
-   }*/
 }
 /* media query ends for max-width:400px*/
 
