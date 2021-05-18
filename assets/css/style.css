@@ -746,11 +746,11 @@ footer{
        border:1px solid black;
    } 
    .cnr form #input #linput,.cnr form #input #rinput{
-       width:100%;
+       width:190%;
    }
-   .cnr form #input #linput input,.cnr form #input #rinput input{
-       width:150%;
-   }
+   /*.cnr form #input #linput input,.cnr form #input #rinput input{
+       width:10%;
+   }*/
 }
 /* media query ends for max-width:400px*/
 
