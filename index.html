@@ -58,7 +58,7 @@
     <!--whyus starts here-->
     <div class="whyus">
         <div class="innerwrapper">
-            <h1 class="animate__animated animate__bounce animate__delay-1s" data-aos="fade-up" data-aos-delay="200"
+            <h1 class="animate__animated animate__bounce animate__delay-1s" data-aos="zoom-up" data-aos-delay="200"
             >Why Us?</h1>
             <div class="cards">
                 <div class="cardsl">
@@ -89,7 +89,7 @@
     <!--offer starts here-->
     <div class="wrapper">
         <div class="offer">
-            <h1 clads="animate__animated animate__bounce" data-aos="flip-up" data-aos-delay="300">What we offer?</h1>
+            <h1 data-aos="flip-up" data-aos-delay="100">What we offer?</h1>
             <div class="livingroom">
                 <div class="lleft animate__animated animate__zoomInLeft">
                     <h1 data-aos="flip-up" data-aos-delay="500">Living room & Bed room</h1>
@@ -277,13 +277,20 @@
                 
                 <div class="cnr animate__animated animate__zoomInRight" data-aos="zoom-in">
                     <form>
-                
-                        <input type="text" id="name" placeholder="Your Name"/>
-                        <input type="phone" id="phn" placeholder="Mobile Number"/>
+                        <div id="input">
+                            <div id="linput">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" />
+                            </div>
+                            <div id="rinput">
+                                <label for="phn">Mobile Number</label>
+                                <input type="phone" id="phn"/>
+                            </div>
+                        </div>
                         <p>Select a service that  you need from us</p>
-                        <button id="btnone">Interior Design</button>
-                        <button id="btnone">Home Decors</button>
-                        <button id="btnone">Furniture</button>
+                        <button type="button" id="btnone"><a href="https://www.fidisys.com/" target="_blank">Interior Design</a></button>
+                        <button type="button" id="btnone"><a href="https://www.fidisys.com/" target="_blank">Home Decors</a></button>
+                        <button type="button" id="btnone"><a href="https://www.fidisys.com/" target="_blank">Furniture</a></button>
                         <br>
                         <textarea placeholder=" Write your message here" rows="7"></textarea>
                         <br>

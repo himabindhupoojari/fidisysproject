@@ -433,16 +433,26 @@ a{
     right:0;
     bottom:0;
 }
-.cnr input{
-    width:47%;
-    height:50px;
-    border-bottom:1px solid #1a3e34;
-    outline:0;
-    margin-left:10px;
-    margin-bottom:40px;
+.cnr #input{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
 }
-*::placeholder{
+#linput,#rinput{
+    width:49%;
+}
+input{
+    border-bottom:1px solid #1a3e34;
+    width:100%;
+    outline:0;
+    height:50px;
+    margin-bottom:20px;
+    padding-left:10px;
+}
+label{
     color:#30d3a8;
+    display:block;
+    font-size:15px;
 }
 .cnr p{
     font-size:16px;
@@ -450,24 +460,28 @@ a{
 }
 #btnone{
     background-color:transparent;
-    color:#1a3e34;
     border: 1px solid #1a3e34;
     padding:10px 30px;
     margin-right:15px;
     margin-top:30px;
-    font-size:13px;
     margin-bottom:30px;
+}
+#btnone a{
+    color:#1a3e34;
+    font-size:13px;
 }
 #btnone:hover{
     background-color:#30d3a8;
-    color:white;
     border:1px solid #30d3a8;
-    font-size:13px;
+}
+#btnone:hover a{
+    color:#fff;
 }
 textarea{
     width:100%;
     border-bottom: 2px solid #1a3e34;
     outline: 0;
+    padding-left:10px;
 }
 
 textarea::placeholder{
@@ -712,7 +726,11 @@ footer{
        margin-left:10px; 
        margin-top:20px;
     }
-    .cnr input{
+    #input{
+        display:grid;
+        justify-content:space-around;
+    }
+    input{
         width:90%;
     }
     textarea{
