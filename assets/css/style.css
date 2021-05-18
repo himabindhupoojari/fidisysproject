@@ -727,6 +727,7 @@ footer{
     .cnr #input{
         display:grid;
         justify-content:space-around;
+        width:100%;
     }
     #linput,#rinput{
         width:100%;
