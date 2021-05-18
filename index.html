@@ -288,9 +288,9 @@
                             </div>
                         </div>
                         <p>Select a service that  you need from us</p>
-                        <button type="button" id="btnone"><a href="https://www.fidisys.com/" target="_blank">Interior Design</a></button>
-                        <button type="button" id="btnone"><a href="https://www.fidisys.com/" target="_blank">Home Decors</a></button>
-                        <button type="button" id="btnone"><a href="https://www.fidisys.com/" target="_blank">Furniture</a></button>
+                        <button type="button" class="btn1" id="btnone"><a>Interior Design</a></button>
+                        <button type="button" class="btn2" id="btnone"><a>Home Decors</a></button>
+                        <button type="button" class="btn3" id="btnone"><a>Furniture</a></button>
                         <br>
                         <textarea placeholder=" Write your message here" rows="7"></textarea>
                         <br>
@@ -378,6 +378,39 @@ $(document).ready(function(){
             $(this).css('color','#fff').css('backgroundColor','#1a3e34');
         });
     });
+    $('#btntwo').click(function(){
+            alert("Your message has been sent scuccessfully");
+        });
+
+        $('.btn1').click(function(){
+            $(this).css({backgroundColor:'#30d3a8',border:'1px solid #30d3a8' });
+            $('.btn1 a').css('color','#fff');
+        });
+
+        $('.btn1').dblclick(function(){
+            $(this).css({color:'#1a3e34',border:'1px solid #1a3e34',backgroundColor:'transparent'});
+            $('.btn1 a').css('color','#1a3e34');
+        });
+
+        $('.btn2').click(function(){
+            $(this).css({backgroundColor:'#30d3a8',border:'1px solid #30d3a8' });
+            $('.btn2 a').css('color','#fff');
+        });
+
+        $('.btn2').dblclick(function(){
+            $(this).css({color:'#1a3e34',border:'1px solid #1a3e34',backgroundColor:'transparent'});
+            $('.btn2 a').css('color','#1a3e34');
+        });
+
+        $('.btn3').click(function(){
+            $(this).css({backgroundColor:'#30d3a8',border:'1px solid #30d3a8' });
+            $('.btn3 a').css('color','#fff');
+        });
+
+        $('.btn3').dblclick(function(){
+            $(this).css({color:'#1a3e34',border:'1px solid #1a3e34',backgroundColor:'transparent'});
+            $('.btn3 a').css('color','#1a3e34');
+        });
 });
 
 
