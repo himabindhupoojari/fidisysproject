@@ -733,10 +733,12 @@ footer{
     }
     #linput,#rinput{
         width:100%;
+        border:1px solid black;
     }
     #input input{
         width:100%;
         margin-left:10px;
+        border:1px solid black;
     }
     textarea{
         width:95%;
