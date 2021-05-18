@@ -748,6 +748,9 @@ footer{
    .cnr form #input #linput,.cnr form #input #rinput{
        width:100%;
    }
+   .cnr form #input #linput input,.cnr form #input #rinput input{
+       width:100%;
+   }
 }
 /* media query ends for max-width:400px*/
 
