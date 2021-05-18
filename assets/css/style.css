@@ -745,7 +745,7 @@ footer{
        display:grid;
        border:1px solid black;
    } 
-   #linput,#rinput{
+   .cnr form #input #linput,.cnr form #input #rinput{
        width:100%;
    }
 }
