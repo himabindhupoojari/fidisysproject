@@ -729,7 +729,7 @@ footer{
         display:grid;
         justify-content:space-around;
         border:1px solid black;
-        width:100%;
+        width:90%;
     }
     #linput,#rinput{
         width:100%;
