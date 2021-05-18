@@ -729,13 +729,14 @@ footer{
         display:grid;
         justify-content:space-around;
         border:1px solid black;
-        width:90%;
+        width:93%;
     }
     #linput,#rinput{
         width:100%;
     }
     #input input{
         width:100%;
+        margin-left:10px;
     }
     textarea{
         width:95%;
