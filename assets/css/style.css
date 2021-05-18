@@ -718,19 +718,6 @@ footer{
        margin-top:20px;
        margin-right:10px;
     }
-    .cnr #input{
-        display:grid;
-        border:1px solid black;
-        width:95%;
-    }
-    #linput input,#rinput input{
-        width:100%;
-        border:1px solid black;
-    }
-    #input input{
-        width:100%;
-        border:1px solid black;
-    }
     textarea{
         width:95%;
     }
