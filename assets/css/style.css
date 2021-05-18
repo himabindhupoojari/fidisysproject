@@ -727,9 +727,8 @@ footer{
     }
     .cnr #input{
         display:grid;
-        justify-content:space-around;
         border:1px solid black;
-        width:93%;
+        width:95%;
     }
     #linput,#rinput{
         width:100%;
@@ -737,7 +736,6 @@ footer{
     }
     #input input{
         width:100%;
-        margin-left:10px;
         border:1px solid black;
     }
     textarea{
