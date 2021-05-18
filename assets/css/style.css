@@ -714,9 +714,9 @@ footer{
         color:#1a3e34;
     }
     .cnr{
-       margin-left:10px; 
+       padding-left:10px; 
        margin-top:20px;
-       margin-right:10px;
+       padding-right:10px;
     }
     textarea{
         width:95%;
@@ -741,7 +741,13 @@ footer{
     .card1,.card2,.card3,.card4{
         width:100%;
     }
-    
+   .cnr form #input{
+       display:grid;
+       border:1px solid black;
+   } 
+   #linput,#rinput{
+       width:100%;
+   }
 }
 /* media query ends for max-width:400px*/
 
