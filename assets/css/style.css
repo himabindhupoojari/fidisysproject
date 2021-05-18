@@ -730,14 +730,14 @@ footer{
         border:1px solid black;
         width:95%;
     }
-    #linput,#rinput{
+    #linput input,#rinput input{
         width:100%;
         border:1px solid black;
     }
-    #input input{
+    /*#input input{
         width:100%;
         border:1px solid black;
-    }
+    }*/
     textarea{
         width:95%;
     }
