@@ -709,11 +709,9 @@ footer{
         width:100%;
     }
     #btntwo{
-        width:95%;
+        width:93%;
         padding:20px 20px;
         float:none;
-    }
-    #btntwo{
         background-color:#1a3e34;
         color:#fff;
         border:2px solid #1a3e34;
@@ -729,6 +727,9 @@ footer{
     #input{
         display:grid;
         justify-content:space-around;
+    }
+    #linput,#rinput{
+        width:100%;
     }
     input{
         width:90%;
