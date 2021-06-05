@@ -578,7 +578,28 @@ footer{
 }
 /*media quries ends for max-width:900px*/
 
-/*media quries starts for max-width:78px*/
+/*media quries ends for max-width:965px*/
+@media all and (max-width:965px){
+
+    .cardsl i,.cardsr i{
+        display:block;
+        text-align:center;
+        padding-bottom:15px;
+    }
+    .cardsl span p,.cardsr span p{
+        text-align:center;
+        padding:5px 5px;
+        margin-left:10px;
+    }
+    .cardsl span,.cardsr span{
+        text-align:center;
+        padding:5px 5px;
+        margin-left:10px;
+    }
+}
+/*media quries ends for max-width:965px*/
+
+/*media quries starts for max-width:750px*/
 @media  all and (max-width:750px){
     .heading{
         display:grid;
@@ -591,7 +612,7 @@ footer{
 /*media quries ends for max-width:750px*/
 
 /*media quries starts for max-width:580px*/
-@media  all and (max-width:750px){
+@media  all and (max-width:580px){
    /* .heading{
         display:grid;
         justify-content:space-around;
@@ -616,6 +637,11 @@ footer{
     }
     .fig{
         width:100%;
+    }
+    .cnr{
+        margin-top:20px;
+        padding-left:10px;
+        padding-right:10px;
     }
 
 }
